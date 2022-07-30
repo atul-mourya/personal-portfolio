@@ -1,115 +1,84 @@
-
-/**
- * https://ibb.co/frQQLy2
-https://ibb.co/Wtn8F1H
-https://ibb.co/2ZGvYj7
-https://ibb.co/Mc5TdBh
-https://ibb.co/sbgMwF8
-https://ibb.co/2vD076N
-https://ibb.co/HNn0JtW
-https://ibb.co/fHLKR7L
-https://ibb.co/QfxsKc8
-https://ibb.co/Lksvhk8
-https://ibb.co/nf6bp66
-https://ibb.co/frzYfLz
-
-[url=https://postimg.cc/YhSHnLgX][img]https://i.postimg.cc/YhSHnLgX/3-Dponics-customizer.webp[/img][/url]
-
-[url=https://postimg.cc/VJrc1yKn][img]https://i.postimg.cc/VJrc1yKn/CadAI.webp[/img][/url]
-
-[url=https://postimg.cc/RNbzjCLv][img]https://i.postimg.cc/RNbzjCLv/Image-Processing.webp[/img][/url]
-
-[url=https://postimg.cc/7b94nnCG][img]https://i.postimg.cc/7b94nnCG/Izmo-emporio2.webp[/img][/url]
-
-[url=https://postimg.cc/2bmp41r7][img]https://i.postimg.cc/2bmp41r7/Izmo-Editor.webp[/img][/url]
-
-[url=https://postimg.cc/3y254X5w][img]https://i.postimg.cc/3y254X5w/Masala-Nerds.webp[/img][/url]
-
-[url=https://postimg.cc/pmwML0S7][img]https://i.postimg.cc/pmwML0S7/nissan-project.webp[/img][/url]
-
-[url=https://postimg.cc/3dNsC55V][img]https://i.postimg.cc/3dNsC55V/profile2.jpg[/img][/url]
-
-[url=https://postimg.cc/mzSvVTrf][img]https://i.postimg.cc/mzSvVTrf/speedometer-dashboard.webp[/img][/url]
-
-[url=https://postimg.cc/hQPH5NJJ][img]https://i.postimg.cc/hQPH5NJJ/synechrone.webp[/img][/url]
-
-[url=https://postimg.cc/yW14x3fV][img]https://i.postimg.cc/yW14x3fV/Test-Drive-Demo.webp[/img][/url]
-
-
- */
-
 export const data = [
-    {
-      title: "Izmo Emporio",
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.",
-      link: 'https://www.izmoemporio.com/demo-en-us.htm',
-      images: [
-        { image: 'https://i.postimg.cc/7b94nnCG/Izmo-emporio2.webp', thumbnail: 'https://i.postimg.cc/7b94nnCG/Izmo-emporio2.webp' },
-        { image: 'https://i.postimg.cc/pmwML0S7/nissan-project.webp', thumbnail: 'https://i.postimg.cc/pmwML0S7/nissan-project.webp' },
-      ]
-    },
-    {
-        title: "Dot Immersive - Wheel Customizer",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.",
-        link: 'https://www.izmoemporio.com/demo-en-us.htm',
-        images: [
-          { image: 'https://i.postimg.cc/3y254X5w/Masala-Nerds.webp', thumbnail: 'https://i.postimg.cc/3y254X5w/Masala-Nerds.webp' },
-        ]
-      },
-      {
-        title: "Izmo - CG Editor",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.",
-        link: 'https://3d.partsgorilla.com/editor/',
-        images: [
-          { image: 'https://i.postimg.cc/2bmp41r7/Izmo-Editor.webp', thumbnail: 'https://i.postimg.cc/2bmp41r7/Izmo-Editor.webp' },
-        ]
-      },
-      {
-        title: "CAD.ai - 3D Widget",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.",
-        link: 'https://atul-mourya.gitlab.io/cadai3dwidget/',
-        images: [
-          { image: 'https://i.postimg.cc/VJrc1yKn/CadAI.webp', thumbnail: 'https://i.postimg.cc/VJrc1yKn/CadAI.webp' },
-        ]
-      },
-      {
-        title: "Synechrone - Data Visualization",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.",
-        link: 'https://atul-mourya.github.io/datavisualizer/',
-        images: [
-          { image: 'https://i.postimg.cc/hQPH5NJJ/synechrone.webp', thumbnail: 'https://i.postimg.cc/hQPH5NJJ/synechrone.webp' },
-        ]
-      },
-      {
-        title: "Test Drive Game Demo",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.",
-        link: 'https://atul-mourya.gitlab.io/testdrive/app/',
-        images: [
-          { image: 'https://i.postimg.cc/yW14x3fV/Test-Drive-Demo.webp', thumbnail: 'https://i.postimg.cc/yW14x3fV/Test-Drive-Demo.webp' },
-        ]
-      },
-      {
-        title: "Image Post Processing",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.",
-        link: 'https://atul-mourya.gitlab.io/imageprocessing/app/',
-        images: [
-          { image: 'https://i.postimg.cc/7b94nnCG/Izmo-emporio2.webp', thumbnail: 'https://i.postimg.cc/7b94nnCG/Izmo-emporio2.webp' },
-        ]
-      },
-      {
-        title: "3DPonics - Customizer",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.",
-        link: 'https://atul-mourya.gitlab.io/3dponics-customizer/',
-        images: [
-          { image: 'https://raw.githubusercontent.com/madelinekinnaird/Gerrymandr/master/images/az1.PNG', thumbnail: 'https://i.postimg.cc/YhSHnLgX/3-Dponics-customizer' },
-        ]
-      },
-      {
-        title: "Speedometer",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.",
-        link: 'https://atul-mourya.gitlab.io/speedometer/',
-        images: [
-          { image: 'https://i.postimg.cc/mzSvVTrf/speedometer-dashboard.webp', thumbnail: 'https://i.postimg.cc/mzSvVTrf/speedometer-dashboard.webp' },
-        ]
-      },
-  ];
+  {
+    title: "Izmo Emporio",
+    description: "A configurator tool made for Izmo, an automotive retail software provided. The tool allows the user to configure the car's features and colors, and then download a PDF with the configuration.",
+    link: 'https://www.izmoemporio.com/demo-en-us.htm',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/nissan-project.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/nissan-project.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/Izmo-emporio2.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/Izmo-emporio2.webp' },
+    ],
+    isExperiment: false,
+  },
+  {
+    title: "Izmo - CG Editor",
+    description: "CG Editor is a asset editing and management tool for Izmo. The tool allows the user to upload, modify and manage assets, and make a centralized repository for all the assets.",
+    link: 'https://3d.partsgorilla.com/editor/',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/IzmoEditor.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/IzmoEditor.webp' },
+    ],
+    isExperiment: false,
+  },
+  {
+    title: "CAD.ai - 3D Widget",
+    description: "CAD.ai is a 3D CAD widget for visualizing CAD data in a web browser. The user can select from different materials, view mesh information, view it in AR and VR.",
+    link: 'https://atul-mourya.gitlab.io/cadai3dwidget/',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/CadAI.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/CadAI.webp' },
+    ],
+    isExperiment: false,
+  },
+  {
+    title: "3DPonics - Customizer",
+    description: "This tool is a parametric design tool for 3DPonics. The tool allows the user to create a parametric design, modify existing parameters and create custom designs. These designs are precreated as templates for 3D printing. The tool also allows the user compare price of printing from different services providers.",
+    link: 'https://atul-mourya.gitlab.io/3dponics-customizer/',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/3Dponics-customizer.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/3Dponics-customizer.webp' },
+    ],
+    isExperiment: false,
+  },
+  {
+    title: "Dot Immersive - Wheel Customizer",
+    description: "Dot Immersive is a 3D web application that allows users to customize wheels and tires. The application is built using WebGL and Three.js.",
+    link: 'http://alloy3dvisualizer.dotimmersive.com/',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/MasalaNerds.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/MasalaNerds.webp' },
+    ],
+    isExperiment: false,
+  },
+  {
+    title: "Speedometer",
+    description: "An experimental speedometer dashboard for monitoring the speed of a vehicle. The dashboard is built using WebGL and Three.js.",
+    link: 'https://atul-mourya.gitlab.io/speedometer/',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/speedometer-dashboard.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/speedometer-dashboard.webp' },
+    ],
+    isExperiment: true,
+  },
+  {
+    title: "Synechrone - Data Visualization",
+    description: "An experimental data visualization tool build in 3D. The tool visualizes various incidental data from a data set, and creates a 3D representation of the data on a globe.",
+    link: 'https://atul-mourya.github.io/datavisualizer/',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/synechrone.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/synechrone.webp' },
+    ],
+    isExperiment: true,
+  },
+  {
+    title: "Test Drive Game Demo",
+    description: "An experimental game demo for testing the game engine. The game engine is built using WebGL, Three.js, ammo.js, webAssembly and React, etc",
+    link: 'https://atul-mourya.gitlab.io/testdrive/app/',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/TestDriveDemo.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/TestDriveDemo.webp' },
+    ],
+    isExperiment: true,
+  },
+  {
+    title: "Image Post Processing",
+    description: "An experimental image post processing tool. The tool allows the user to apply various image processing techniques on an image and save the result.",
+    link: 'https://atul-mourya.gitlab.io/imageprocessing/app/',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/ImageProcessing.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/ImageProcessing.webp?token=GHSAT0AAAAAABWZGZAYZTL6QS6AUXN6UPKSYW5ORHA' },
+    ],
+    isExperiment: true,
+  },
+];

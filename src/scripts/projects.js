@@ -1,9 +1,12 @@
 
 export default function initProjects(data) {
 
-    const target = document.querySelector('#projects .project-wrapper');
+    const targetProjects = document.querySelector('#projects .project-wrapper');
 
-    data.forEach((element, i) => {
+    const projects = data.filter(project => project.isExperiment === false);
+    const experiments = data.filter(project => project.isExperiment === true);
+
+    projects.forEach((element, i) => {
 
         const row = document.createElement('div');
         row.className = 'row';
@@ -39,7 +42,7 @@ export default function initProjects(data) {
         row.append(preview);
 
         const gallery =  document.createElement('div');
-        gallery.className = 'inline-gallery-container project-wrapper__image thumbnail rounded js-tilt';
+        gallery.className = 'inline-gallery-container inline-gallery-container-projects project-wrapper__image thumbnail rounded js-tilt';
         gallery.id = `inline-gallery-container-${i}`;
         gallery.setAttribute( 'data-tilt', '' );
         gallery.setAttribute( 'data-tilt-max', '4' );
@@ -47,8 +50,43 @@ export default function initProjects(data) {
         gallery.setAttribute( 'data-tilt-max-glare', '0.5' );
         preview.append(gallery);
 
-        target.append(row);
+        targetProjects.append(row);
 
     });
+
+    const targetExperiments = document.querySelector('#experiments .project-wrapper');
+
+    const row = document.createElement('div');
+    row.className = 'row gx-5  gy-5 ';
+    targetExperiments.append(row);
+
+    experiments.forEach((element, i) => {
+
+        const preview = document.createElement('div');
+        preview.className = 'col-lg-3 col-sm-4';
+        row.append(preview);
+
+        const container = document.createElement('div');
+        container.className = 'mx-auto gallery-container';
+        preview.append(container);
+        
+
+        const gallery =  document.createElement('div');
+        gallery.className = 'inline-gallery-container inline-gallery-container-experiments project-wrapper__image thumbnail rounded js-tilt';
+        gallery.id = `inline-gallery-container-experiments-${i}`;
+        gallery.setAttribute( 'data-tilt', '' );
+        gallery.setAttribute( 'data-tilt-max', '4' );
+        gallery.setAttribute( 'data-tilt-glare', 'true' );
+        gallery.setAttribute( 'data-tilt-max-glare', '0.5' );
+        container.append(gallery);
+
+        const namePlate = document.createElement('div');
+        namePlate.className = 'name-plate';
+        namePlate.innerText = element.title;
+        container.append(namePlate);
+
+
+    });
+
 
 }
