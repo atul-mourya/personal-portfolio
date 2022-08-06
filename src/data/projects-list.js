@@ -1,5 +1,18 @@
 export const data = [
   {
+    title: "Spacecraft - 3D Interiors Design tool",
+    description: "Lorem Ipsum loda lasun",
+    link: 'https://www.izmoemporio.com/demo-en-us.htm',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/coverimage.jpeg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/coverimage.jpeg' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page1.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page1.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page2.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page2.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page3.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page3.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page4.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page4.png' },
+    ],
+    isExperiment: false,
+  },
+  {
     title: "Izmo Emporio",
     description: "A configurator tool made for Izmo, an automotive retail software provided. The tool allows the user to configure the car's features and colors, and then download a PDF with the configuration.",
     link: 'https://www.izmoemporio.com/demo-en-us.htm',
