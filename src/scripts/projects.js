@@ -29,12 +29,17 @@ export default function initProjects(data) {
         description.innerText = element.description;
         projectWrapper.append(description);
 
+        const demoLink = element.link || element.demo_video;
+
         const button = document.createElement('a');
         button.className = 'cta-btn cta-btn--hero';
-        button.href = element.link ? element.link : element.demo_video;
-        button.setAttribute( 'rel', 'noreferrer' );
-        button.setAttribute( 'target', '_blank' );
-        button.innerText = element.link ? 'See Live' : 'Watch Demo';
+        button.href = demoLink;
+        button.innerText = demoLink ? element.link ? 'See Live' : 'Watch Demo' : 'No Demo :(';
+
+        demoLink && button.setAttribute( 'rel', 'noreferrer' );
+        demoLink && button.setAttribute( 'target', '_blank' );
+        ! demoLink && ( button.style.pointerEvents = 'none' );
+        
         projectWrapper.append(button);
 
         const preview = document.createElement('div');
