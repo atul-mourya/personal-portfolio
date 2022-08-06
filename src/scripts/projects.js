@@ -31,10 +31,10 @@ export default function initProjects(data) {
 
         const button = document.createElement('a');
         button.className = 'cta-btn cta-btn--hero';
-        button.href = element.link;
+        button.href = element.link ? element.link : element.demo_video;
         button.setAttribute( 'rel', 'noreferrer' );
         button.setAttribute( 'target', '_blank' );
-        button.innerText = 'See Live';
+        button.innerText = element.link ? 'See Live' : 'Watch Demo';
         projectWrapper.append(button);
 
         const preview = document.createElement('div');

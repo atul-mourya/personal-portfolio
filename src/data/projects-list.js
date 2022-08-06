@@ -1,10 +1,11 @@
 export const data = [
   {
     title: "Spacecraft - 3D Interiors Design tool",
-    description: "Lorem Ipsum loda lasun",
-    link: 'https://www.izmoemporio.com/demo-en-us.htm',
+    description: "Spacecraft is a state of the art software for 2D floor planning, 3D room design, virtual meetings, catalog/pricing mgmt & manufacturing automation — optimized for performance at scale",
+    link: '',
+    demo_video: "https://youtu.be/UgM6JvVBiuI",
     images: [
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/coverimage.jpeg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/coverimage.jpeg' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/coverimage1.jpeg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/coverimage.jpeg' },
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page1.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page1.png' },
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page2.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page2.png' },
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page3.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/page3.png' },
