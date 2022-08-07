@@ -32,7 +32,7 @@ export const data = [
     link: '',
     demo_video: "https://youtu.be/jxFh3JiLzmg?t=189",
     images: [
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/coverpage1.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/coverimage1.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/coverpage.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/coverimage.png' },
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page1.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page1.png' },
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page2.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page2.png' },
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page3.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page3.png' },
