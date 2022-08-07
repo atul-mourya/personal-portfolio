@@ -57,8 +57,10 @@ export const data = [
     description: "A configurator tool made for Izmo, an automotive retail software provided. The tool allows the user to configure the car's features and colors, and then download a PDF with the configuration.",
     link: 'https://www.izmoemporio.com/demo-en-us.htm',
     images: [
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/nissan-project.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/nissan-project.webp' },
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/Izmo-emporio2.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/Izmo-emporio2.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/nissan-project.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/nissan-project.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/Izmo-emporio2.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/Izmo-emporio2.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/Izmo-emporio.gif', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/Izmo-emporio.gif' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/Izmo-emporio.mov', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/Izmo-emporio.mov' },
     ],
     isExperiment: false,
   },
