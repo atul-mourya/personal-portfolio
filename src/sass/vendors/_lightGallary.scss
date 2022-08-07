@@ -15,7 +15,7 @@
 
 .gallery-container {
     position: relative;
-    padding-top: 1rem;
+    padding: 5px 0px;
     // height: 140px;
     width: 180px;
     border: none;
@@ -31,30 +31,55 @@
     height: 10rem;
 }
 
-.inline-gallery-container-experiments .lg-img-wrap:before {
-    vertical-align: top;
-}
 .inline-gallery-container-experiments .name-plate {
     color: red;
     font-size: 1.2em;
 }
 
 .inline-gallery-container-experiments {
-        height: 180px;
-        width: 180px;
-        background: #fff;
-        border-radius: 4px;
+    width: 180px;
+    background: #fff;
+    border-radius: 4px;
+}
+.info {
+    position: relative;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    margin: 5px auto;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    background-image: linear-gradient(135deg, #019a9f 0%, #06ffd7 100%);
+    font-size: 1em !important;
+}
+.info a {
+    font-size: 1em;
+}
+.name-plate {
+    font-size: initial;
 }
 
-// .lg-toolbar {
-//     display: none;
-// }
 .lg-backdrop, .lg-outer .lg-thumb-outer {
     background: rgb(255, 255, 255);
 }
 .lg-content {
     top: 0px !important;
 }
+
+.inline-gallery-container-experiments .lg-next {
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+}
+.inline-gallery-container-experiments .lg-prev {
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+}
+
 .lg-next, .lg-prev {
     background-image: linear-gradient(135deg, #019a9f 0%, #06ffd7 100%);
     border-radius: 20px;
@@ -65,8 +90,8 @@
 }
 
 .lg-button, .lg-counter, .lg-icon {
-    font-size: 14px !important;
-    padding-top: 5px !important;
+    font-size: 14px;
+    padding-top: 5px;
 }
 
 // For caption animation(Optional)

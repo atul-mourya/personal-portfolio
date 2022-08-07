@@ -114,7 +114,7 @@ export const data = [
     isExperiment: true,
   },
   {
-    title: "Synechrone - Data Visualization",
+    title: "Synechrone",
     description: "An experimental data visualization tool build in 3D. The tool visualizes various incidental data from a data set, and creates a 3D representation of the data on a globe.",
     link: 'https://atul-mourya.github.io/datavisualizer/',
     images: [
@@ -124,7 +124,7 @@ export const data = [
     isExperiment: true,
   },
   {
-    title: "Test Drive Game Demo",
+    title: "Test Drive",
     description: "An experimental game demo for testing the game engine. The game engine is built using WebGL, Three.js, ammo.js, webAssembly and React, etc",
     link: 'https://atul-mourya.gitlab.io/testdrive/app/',
     images: [
@@ -134,7 +134,7 @@ export const data = [
     isExperiment: true,
   },
   {
-    title: "Image Post Processing",
+    title: "Image Editor",
     description: "An experimental image post processing tool. The tool allows the user to apply various image processing techniques on an image and save the result.",
     link: 'https://atul-mourya.gitlab.io/imageprocessing/app/',
     images: [

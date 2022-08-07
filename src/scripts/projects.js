@@ -58,30 +58,45 @@ export default function initProjects(data) {
     const targetExperiments = document.querySelector('#experiments .project-wrapper');
 
     const row = document.createElement('div');
-    row.className = 'row gx-5  gy-5 ';
+    row.className = 'row gx-5';
     targetExperiments.append(row);
 
     experiments.forEach((element, i) => {
 
         const preview = document.createElement('div');
-        preview.className = 'col-lg-3 col-sm-4';
+        preview.className = 'col-lg-3 col-sm-4 p-5';
         row.append(preview);
 
         const container = document.createElement('div');
         container.className = 'mx-auto gallery-container';
         preview.append(container);
         
+        const namePlate = document.createElement('div');
+        namePlate.className = 'name-plate';
+        namePlate.innerText = element.title;
+        container.append(namePlate);
 
         const gallery =  document.createElement('div');
         gallery.className = 'inline-gallery-container inline-gallery-container-experiments project-wrapper__image thumbnail rounded';
         gallery.id = `inline-gallery-container-experiments-${i}`;
         container.append(gallery);
 
-        const namePlate = document.createElement('div');
-        namePlate.className = 'name-plate';
-        namePlate.innerText = element.title;
-        container.append(namePlate);
+        
 
+        const play = document.createElement('div');
+        play.className = 'info';
+        container.append(play);
+
+        const button = document.createElement('a');
+        button.className = '';
+        button.href = element.link;
+        button.setAttribute( 'rel', 'noreferrer' );
+        button.setAttribute( 'target', '_blank' );
+        play.append(button);
+        
+        const infoIcon = document.createElement('i');
+        infoIcon.className = 'fa fa-play fa-1x block';
+        button.append(infoIcon);
 
     });
 
