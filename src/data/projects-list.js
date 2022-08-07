@@ -58,9 +58,10 @@ export const data = [
     link: 'https://www.izmoemporio.com/demo-en-us.htm',
     images: [
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/nissan-project.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/nissan-project.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/page3.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/page3.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/page5.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/page5.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/page4.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/page4.png' },
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/Izmo-emporio2.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/Izmo-emporio2.webp' },
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/Izmo-emporio.gif', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/Izmo-emporio.gif' },
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/Izmo-emporio.mov', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/Izmo-emporio.mov' },
     ],
     isExperiment: false,
   },
