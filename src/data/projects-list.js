@@ -70,12 +70,14 @@ export const data = [
     description: "CG Editor is a asset editing and management tool for Izmo. The tool allows the user to upload, modify and manage assets, and make a centralized repository for all the assets.",
     link: 'https://3d.partsgorilla.com/editor/',
     images: [
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/IzmoEditor.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/IzmoEditor.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/IzmoEditor.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/IzmoEditor.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/page2.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/page2.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/page1.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/page1.png' },
     ],
     isExperiment: false,
   },
   {
-    title: "CAD.ai - 3D Widget",
+    title: "CAD.ai - 3D Viewer",
     description: "CAD.ai is a 3D CAD widget for visualizing CAD data in a web browser. The user can select from different materials, view mesh information, view it in AR and VR.",
     link: 'https://atul-mourya.gitlab.io/cadai3dwidget/',
     images: [
@@ -84,7 +86,7 @@ export const data = [
     isExperiment: false,
   },
   {
-    title: "3DPonics - Customizer",
+    title: "3Dponics - Part Builder",
     description: "This tool is a parametric design tool for 3DPonics. The tool allows the user to create a parametric design, modify existing parameters and create custom designs. These designs are precreated as templates for 3D printing. The tool also allows the user compare price of printing from different services providers.",
     link: 'https://atul-mourya.gitlab.io/3dponics-customizer/',
     images: [
@@ -106,7 +108,8 @@ export const data = [
     description: "An experimental speedometer dashboard for monitoring the speed of a vehicle. The dashboard is built using WebGL and Three.js.",
     link: 'https://atul-mourya.gitlab.io/speedometer/',
     images: [
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/speedometer-dashboard.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/speedometer-dashboard.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/speedometer-dashboard.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/speedometer-dashboard.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/speedometer-info.jpg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/speedometer-info.jpg' },
     ],
     isExperiment: true,
   },
@@ -115,7 +118,8 @@ export const data = [
     description: "An experimental data visualization tool build in 3D. The tool visualizes various incidental data from a data set, and creates a 3D representation of the data on a globe.",
     link: 'https://atul-mourya.github.io/datavisualizer/',
     images: [
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/synechrone.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/synechrone.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/synechrone.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/synechrone.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/synechrone-info.jpg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/synechrone-info.jpg' },
     ],
     isExperiment: true,
   },
@@ -124,7 +128,8 @@ export const data = [
     description: "An experimental game demo for testing the game engine. The game engine is built using WebGL, Three.js, ammo.js, webAssembly and React, etc",
     link: 'https://atul-mourya.gitlab.io/testdrive/app/',
     images: [
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/TestDriveDemo.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/TestDriveDemo.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/TestDriveDemo.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/TestDriveDemo.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Testdrive-info.jpg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Testdrive-info.jpg' },
     ],
     isExperiment: true,
   },
@@ -133,7 +138,8 @@ export const data = [
     description: "An experimental image post processing tool. The tool allows the user to apply various image processing techniques on an image and save the result.",
     link: 'https://atul-mourya.gitlab.io/imageprocessing/app/',
     images: [
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/ImageProcessing.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/ImageProcessing.webp?token=GHSAT0AAAAAABWZGZAYZTL6QS6AUXN6UPKSYW5ORHA' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/ImageProcessing.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/ImageProcessing.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/imagePP-info.jpg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/imagePP-info.jpg' },
     ],
     isExperiment: true,
   },
