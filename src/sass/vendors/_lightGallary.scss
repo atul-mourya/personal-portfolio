@@ -16,7 +16,7 @@
 .gallery-container {
     position: relative;
     padding-top: 1rem;
-    height: 140px;
+    // height: 140px;
     width: 180px;
     border: none;
     box-shadow: 0 3px 6px rgb(0 0 0 / 50%), 0 3px 6px rgb(0 0 0 / 45%);
@@ -38,16 +38,17 @@
     color: red;
     font-size: 1.2em;
 }
-// .inline-gallery-container-experiments {
-//         height: 180px;
-//         width: 180px;
-//         background: #fff;
-//         border-radius: 4px;
-// }
 
-.lg-toolbar {
-    display: none;
+.inline-gallery-container-experiments {
+        height: 180px;
+        width: 180px;
+        background: #fff;
+        border-radius: 4px;
 }
+
+// .lg-toolbar {
+//     display: none;
+// }
 .lg-backdrop, .lg-outer .lg-thumb-outer {
     background: rgb(255, 255, 255);
 }

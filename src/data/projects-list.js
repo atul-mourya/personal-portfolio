@@ -27,6 +27,32 @@ export const data = [
     isExperiment: false,
   },
   {
+    title: "Canvas 3D Tool - 3D Interiors Design tool",
+    description: "Cavas 3D tool is a state of the art software for 2D floor planning, 3D room design, catalog/pricing mgmt",
+    link: '',
+    demo_video: "https://youtu.be/jxFh3JiLzmg?t=189",
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/coverpage1.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/coverimage1.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page1.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page1.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page2.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page2.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page3.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page3.png' },
+    ],
+    isExperiment: false,
+  },
+  {
+    title: "Vision - Asset Platform for Canvas",
+    description: "Asset Platform is a web application for managing Canvas assets. It has many modules related to asset manangement like, material library, texture library, model library and module builder.",
+    link: '',
+    demo_video: '',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page4.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page4.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page5.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page5.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page6.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page6.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page7.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page7.png' },
+    ],
+    isExperiment: false,
+  },
+  {
     title: "Izmo Emporio",
     description: "A configurator tool made for Izmo, an automotive retail software provided. The tool allows the user to configure the car's features and colors, and then download a PDF with the configuration.",
     link: 'https://www.izmoemporio.com/demo-en-us.htm',

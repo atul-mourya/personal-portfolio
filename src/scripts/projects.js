@@ -39,20 +39,24 @@ export default function initProjects(data) {
         demoLink && button.setAttribute( 'rel', 'noreferrer' );
         demoLink && button.setAttribute( 'target', '_blank' );
         ! demoLink && ( button.style.pointerEvents = 'none' );
-        
+
         projectWrapper.append(button);
 
         const preview = document.createElement('div');
         preview.className = 'col-lg-6 col-sm-12';
         row.append(preview);
 
+        // const tilt =  document.createElement('div');
+        // tilt.className = 'project-wrapper__image thumbnail rounded js-tilt';
+        // tilt.setAttribute( 'data-tilt', '' );
+        // tilt.setAttribute( 'data-tilt-max', '4' );
+        // tilt.setAttribute( 'data-tilt-glare', 'true' );
+        // tilt.setAttribute( 'data-tilt-max-glare', '0.5' );
+        // preview.append(tilt);
+
         const gallery =  document.createElement('div');
-        gallery.className = 'inline-gallery-container inline-gallery-container-projects project-wrapper__image thumbnail rounded js-tilt';
+        gallery.className = 'inline-gallery-container inline-gallery-container-projects project-wrapper__image thumbnail rounded';
         gallery.id = `inline-gallery-container-${i}`;
-        gallery.setAttribute( 'data-tilt', '' );
-        gallery.setAttribute( 'data-tilt-max', '4' );
-        gallery.setAttribute( 'data-tilt-glare', 'true' );
-        gallery.setAttribute( 'data-tilt-max-glare', '0.5' );
         preview.append(gallery);
 
         targetProjects.append(row);

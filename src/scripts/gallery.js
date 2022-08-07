@@ -35,6 +35,7 @@ export default function initGallery(props) {
                 thumbWidth: 40,
                 thumbHeight: "20px",
                 thumbMargin: 4,
+                counter: false
             };
             const inlineGallery = lightGallery(lgContainer, params);
             inlineGallery.openGallery();
