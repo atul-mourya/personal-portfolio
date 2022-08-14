@@ -28,7 +28,7 @@ export const data = [
   },
   {
     title: "Canvas 3D Tool - 3D Interiors Design tool",
-    description: "Cavas 3D tool is a state of the art software for 2D floor planning, 3D room design, catalog/pricing mgmt",
+    description: "is a state of the art software for 2D floor planning, 3D room design, product visualization mgmt, drawing generation and boq generation tool — optimized for performance at scale",
     link: '',
     demo_video: "https://youtu.be/jxFh3JiLzmg?t=189",
     images: [
@@ -106,7 +106,7 @@ export const data = [
   {
     title: "Speedometer",
     description: "An experimental speedometer dashboard for monitoring the speed of a vehicle. The dashboard is built using WebGL and Three.js.",
-    link: 'https://atul-mourya.gitlab.io/speedometer/',
+    link: 'https://atul-mourya.github.io/Speedometer/',
     images: [
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/speedometer-dashboard.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/speedometer-dashboard.webp' },
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/speedometer-info.jpg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/speedometer-info.jpg' },
