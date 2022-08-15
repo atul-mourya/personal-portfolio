@@ -97,9 +97,12 @@ export const data = [
   {
     title: "Dot Immersive - Wheel Customizer",
     description: "Dot Immersive is a 3D web application that allows users to customize wheels and tires. The application is built using WebGL and Three.js.",
-    link: 'http://alloy3dvisualizer.dotimmersive.com/',
+    link: 'https://atul-mourya.github.io/Wheel-Customizer/',
     images: [
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/MasalaNerds.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/MasalaNerds.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/masalanerds/MasalaNerds.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/masalanerdsMasalaNerds.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/masalanerds/p1.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/p1.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/masalanerds/p2.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/p2.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/masalanerds/p3.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/p3.png' },
     ],
     isExperiment: false,
   },
@@ -126,7 +129,7 @@ export const data = [
   {
     title: "Test Drive",
     description: "An experimental game demo for testing the game engine. The game engine is built using WebGL, Three.js, ammo.js, webAssembly and React, etc",
-    link: 'https://atul-mourya.gitlab.io/testdrive/app/',
+    link: 'https://atul-mourya.github.io/TestDriveDemo/',
     images: [
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/TestDriveDemo.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/TestDriveDemo.webp' },
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Testdrive-info.jpg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Testdrive-info.jpg' },
