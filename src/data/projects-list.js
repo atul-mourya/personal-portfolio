@@ -152,7 +152,7 @@ export const data = [
     link: 'https://atul-mourya.github.io/Oxbotica-experiment/',
     images: [
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Oxbotica.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Oxbotica.png' },
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Oxbotica-info.jpg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Oxbotica-info.jpg' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Oxbotica-info.jpeg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Oxbotica-info.jpeg' },
     ],
     isExperiment: true,
   },
