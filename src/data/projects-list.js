@@ -146,4 +146,26 @@ export const data = [
     ],
     isExperiment: true,
   },
+  {
+    title: "Autmonous Driving",
+    description: "Autonomouse Vehicles live activity feed demo using three.js. This Experiment can be used to control autonomously driven vehicles.",
+    link: 'https://atul-mourya.github.io/Oxbotica-experiment/',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Oxbotica.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Oxbotica.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Oxbotica-info.jpg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Oxbotica-info.jpg' },
+    ],
+    isExperiment: true,
+  },
+  {
+    title: "Room Generator",
+    description: "An experimental room generator. The tool generates a custom rooms, templated rooms, etc and displays it on a canvas.",
+    link: 'https://atul-mourya.github.io/floor-planner/',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/floorplanner1.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/floorplanner1.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/floorplanner2.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/floorplanner2.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/floorplanner3.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/floorplanner3.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/floorplanner-info.jpeg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/floorplanner-info.jpeg' },
+    ],
+    isExperiment: true,
+  },
 ];
