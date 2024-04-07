@@ -1,7 +1,45 @@
 export const data = [
   {
+    title: "Blueprint - Parametric Design Tool",
+    description: "is a 3d modeling tool that allows users to create parametric designs. The tool is built using WebGL and Three.js.",
+    link: '',
+    demo_video: "",
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/blueprint-overview.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/blueprint-overview.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/blueprint-overview.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/blueprint-overview.png' },
+      // { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/blueprint.gif', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/blueprint.gif' },
+    ],
+    isExperiment: false,
+  },
+  {
+    title: "Canvas 3D Tool - 3D Interiors Design tool",
+    description: "is a state-of-the-art software for 2D-floor planning, 3D room design, product visualization mgmt, drawing generation and boq generation tool — optimized for performance at scale",
+    link: '',
+    demo_video: "https://youtu.be/jxFh3JiLzmg?t=189",
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/coverpage.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/coverimage.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page1.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page1.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page2.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page2.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page3.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page3.png' },
+    ],
+    isExperiment: false,
+  },
+  {
+    title: "Vision - Asset Platform for Canvas",
+    description: "Asset Platform is a web application for managing Canvas assets. It has many modules related to asset management like a material library, texture library, model library and module builder.",
+    link: '',
+    demo_video: '',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page4.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page4.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page5.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page5.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page6.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page6.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page7.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page7.png' },
+    ],
+    isExperiment: false,
+  },
+  {
     title: "Spacecraft - 3D Interiors Design tool",
-    description: "Spacecraft is a state of the art software for 2D floor planning, 3D room design, virtual meetings, catalog/pricing mgmt & manufacturing automation — optimized for performance at scale",
+    description: "Spacecraft is a state-of-the-art software for 2D floor planning, 3D room design, virtual meetings, catalog/pricing mgmt & manufacturing automation — optimized for performance at scale",
     link: '',
     demo_video: "https://youtu.be/UgM6JvVBiuI",
     images: [
@@ -15,7 +53,7 @@ export const data = [
   },
   {
     title: "Asset Platform for Spacecraft",
-    description: "Asset Platform is a web application for managing Spacecraft assets. It has many modules related to asset manangement like, material library, texture library, model library and modeule builder.",
+    description: "Asset Platform is a web application for managing Spacecraft assets. It has many modules related to asset management like a material library, texture library, model library and module builder.",
     link: '',
     demo_video: '',
     images: [
@@ -23,32 +61,6 @@ export const data = [
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/ap2.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/ap2.png' },
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/ap3.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/ap3.png' },
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/ap3.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/spacecraft/ap4.png' },
-    ],
-    isExperiment: false,
-  },
-  {
-    title: "Canvas 3D Tool - 3D Interiors Design tool",
-    description: "is a state of the art software for 2D floor planning, 3D room design, product visualization mgmt, drawing generation and boq generation tool — optimized for performance at scale",
-    link: '',
-    demo_video: "https://youtu.be/jxFh3JiLzmg?t=189",
-    images: [
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/coverpage.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/coverimage.png' },
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page1.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page1.png' },
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page2.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page2.png' },
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page3.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page3.png' },
-    ],
-    isExperiment: false,
-  },
-  {
-    title: "Vision - Asset Platform for Canvas",
-    description: "Asset Platform is a web application for managing Canvas assets. It has many modules related to asset manangement like, material library, texture library, model library and module builder.",
-    link: '',
-    demo_video: '',
-    images: [
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page4.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page4.png' },
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page5.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page5.png' },
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page6.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page6.png' },
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page7.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/livspace/page7.png' },
     ],
     isExperiment: false,
   },
@@ -67,7 +79,7 @@ export const data = [
   },
   {
     title: "Izmo - CG Editor",
-    description: "CG Editor is a asset editing and management tool for Izmo. The tool allows the user to upload, modify and manage assets, and make a centralized repository for all the assets.",
+    description: "CG Editor is an asset editing and management tool for Izmo. The tool allows the user to upload, modify and manage assets, and make a centralized repository for all the assets. This is a modded version of Three.js editor.",
     link: 'https://3d.partsgorilla.com/editor/',
     images: [
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/IzmoEditor.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/izmo/IzmoEditor.webp' },
@@ -78,7 +90,7 @@ export const data = [
   },
   {
     title: "CAD.ai - 3D Viewer",
-    description: "CAD.ai is a 3D CAD widget for visualizing CAD data in a web browser. The user can select from different materials, view mesh information, view it in AR and VR.",
+    description: "CAD.ai is a 3D CAD widget for visualizing CAD data in a web browser. The user can select from different materials, view mesh information, and view it in AR and VR.",
     link: 'https://atul-mourya.gitlab.io/cadai3dwidget/',
     images: [
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/CadAI.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/CadAI.webp' },
@@ -87,7 +99,7 @@ export const data = [
   },
   {
     title: "3Dponics - Part Builder",
-    description: "This tool is a parametric design tool for 3DPonics. The tool allows the user to create a parametric design, modify existing parameters and create custom designs. These designs are precreated as templates for 3D printing. The tool also allows the user compare price of printing from different services providers.",
+    description: "This tool is a parametric design tool for 3DPonics. The tool allows the user to create a parametric design, modify existing parameters and create custom designs. These designs are created as templates for 3D printing. The tool also allows the user to compare prices of printing from different service providers.",
     link: 'https://atul-mourya.gitlab.io/3dponics-customizer/',
     images: [
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/3Dponics-customizer.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/3Dponics-customizer.webp' },
@@ -105,6 +117,18 @@ export const data = [
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/masalanerds/p3.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/p3.png' },
     ],
     isExperiment: false,
+  },
+  {
+    title: "Test Drive",
+    description: "An experimental game demo for testing the game engine. The game engine is built using WebGL, Three.js, ammo.js, WebAssembly, etc",
+    link: 'https://atul-mourya.github.io/TestDriveDemo/',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/TestDrive-cover.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/TestDrive-cover.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Testdrive-info.jpg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Testdrive-info.jpg' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/TestDrivePage1.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/TestDrivePage1.png' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/TestDrivePage2.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/TestDrivePage2.png' },
+    ],
+    isExperiment: true,
   },
   {
     title: "Speedometer",
@@ -127,18 +151,8 @@ export const data = [
     isExperiment: true,
   },
   {
-    title: "Test Drive",
-    description: "An experimental game demo for testing the game engine. The game engine is built using WebGL, Three.js, ammo.js, webAssembly and React, etc",
-    link: 'https://atul-mourya.github.io/TestDriveDemo/',
-    images: [
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/TestDriveDemo.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/TestDriveDemo.webp' },
-      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Testdrive-info.jpg', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/Testdrive-info.jpg' },
-    ],
-    isExperiment: true,
-  },
-  {
     title: "Image Editor",
-    description: "An experimental image post processing tool. The tool allows the user to apply various image processing techniques on an image and save the result.",
+    description: "An experimental image post-processing tool. The tool allows the user to apply various image processing techniques on an image and save the result.",
     link: 'https://atul-mourya.gitlab.io/imageprocessing/app/',
     images: [
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/ImageProcessing.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/ImageProcessing.webp' },
@@ -158,7 +172,7 @@ export const data = [
   },
   {
     title: "Room Generator",
-    description: "An experimental room generator. The tool generates a custom rooms, templated rooms, etc and displays it on a canvas.",
+    description: "An experimental room generator. The tool generates a custom room, templated rooms, etc and displays it on a canvas.",
     link: 'https://atul-mourya.github.io/floor-planner/',
     images: [
       { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/floorplanner1.png', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/floorplanner1.png' },
