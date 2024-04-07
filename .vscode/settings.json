@@ -1,0 +1,9 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "javascript",
+            "scheme": "file",
+            "pattern": "src/data/projects-list.js"
+        }
+    ]
+}
