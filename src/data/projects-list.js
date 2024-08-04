@@ -119,6 +119,16 @@ export const data = [
     isExperiment: false,
   },
   {
+    title: "Path Tracer",
+    description: "An simple path tracer with glb file support",
+    link: 'https://atul-mourya.github.io/RayTracing/',
+    images: [
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/RayTracer.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/RayTracer.webp' },
+      { image: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/RayTracer-info.webp', thumbnail: 'https://raw.githubusercontent.com/atul-mourya/personal-portfolio/main/src/assets/experimental/RayTracer-info.webp' },
+    ],
+    isExperiment: true,
+  },
+  {
     title: "Test Drive",
     description: "An experimental game demo for testing the game engine. The game engine is built using WebGL, Three.js, ammo.js, WebAssembly, etc",
     link: 'https://atul-mourya.github.io/TestDriveDemo/',
