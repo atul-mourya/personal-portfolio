@@ -64,7 +64,7 @@ export default function initProjects(data) {
     experiments.forEach((element, i) => {
 
         const preview = document.createElement('div');
-        preview.className = 'col-lg-3 col-sm-4 p-5';
+        preview.className = 'col-lg-3 col-sm-4 p-3';
         row.append(preview);
 
         const container = document.createElement('div');
