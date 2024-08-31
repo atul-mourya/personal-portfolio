@@ -9,7 +9,7 @@ import visionPage4 from './livspace/page4.png';
 import visionPage5 from './livspace/page5.png';
 import visionPage6 from './livspace/page6.png';
 import visionPage7 from './livspace/page7.png';
-import spacecraftCoverimage1 from './spacecraft/coverimage1.PNG';
+import spacecraftCoverimage1 from './spacecraft/coverimage1.png';
 import spacecraftPage1 from './spacecraft/page1.png';
 import spacecraftPage2 from './spacecraft/page2.png';
 import spacecraftPage3 from './spacecraft/page3.png';
