@@ -41,7 +41,7 @@ import testDriveCover from './experimental/TestDriveDemo/TestDrive-cover.webp';
 import testDrivePage1 from './experimental/TestDriveDemo/TestDrivePage1.webp';
 import testDrivePage2 from './experimental/TestDriveDemo/TestDrivePage2.webp';
 import speedometerDashboard from './experimental/Speedometer/speedometer-dashboard.webp';
-import synechrone from './experimental/Synechrone/synechrone.webp';
+import synechrone from './experimental/synechrone/synechrone.webp';
 import imageProcessing from './experimental/ImagePostprocessor/ImageProcessing.webp';
 import oxbotica from './experimental/Oxbotica/Oxbotica.png';
 import floorplanner1 from './experimental/FloorPlanner/floorplanner1.png';
