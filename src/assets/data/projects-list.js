@@ -1,52 +1,53 @@
 import blueprintOverview from './livspace/blueprint-overview.webp';
 import blueprintContour from './livspace/blueprint-contour.webp';
 import blueprintGif from './livspace/blueprint.gif';
-import canvasCoverpage from './livspace/coverpage.png';
-import canvasPage1 from './livspace/page1.png';
-import canvasPage2 from './livspace/page2.png';
-import canvasPage3 from './livspace/page3.png';
-import visionPage4 from './livspace/page4.png';
-import visionPage5 from './livspace/page5.png';
-import visionPage6 from './livspace/page6.png';
-import visionPage7 from './livspace/page7.png';
-import spacecraftCoverimage1 from './spacecraft/coverimage1.png';
-import spacecraftPage1 from './spacecraft/page1.png';
-import spacecraftPage2 from './spacecraft/page2.png';
-import spacecraftPage3 from './spacecraft/page3.png';
-import spacecraftPage4 from './spacecraft/page4.png';
-import spacecraftAp1 from './spacecraft/ap1.png';
-import spacecraftAp2 from './spacecraft/ap2.png';
-import spacecraftAp3 from './spacecraft/ap3.png';
-import spacecraftAp4 from './spacecraft/ap4.png';
+import canvasCoverpage from './livspace/coverpage.webp';
+import canvasPage1 from './livspace/page1.webp';
+import canvasPage2 from './livspace/page2.webp';
+import canvasPage3 from './livspace/page3.webp';
+import visionPage4 from './livspace/page4.webp';
+import visionPage5 from './livspace/page5.webp';
+import visionPage6 from './livspace/page6.webp';
+import visionPage7 from './livspace/page7.webp';
+import spacecraftCoverimage1 from './spacecraft/coverimage1.webp';
+import spacecraftPage1 from './spacecraft/page1.webp';
+import spacecraftPage2 from './spacecraft/page2.webp';
+import spacecraftPage3 from './spacecraft/page3.webp';
+import spacecraftPage4 from './spacecraft/page4.webp';
+import spacecraftAp1 from './spacecraft/ap1.webp';
+import spacecraftAp2 from './spacecraft/ap2.webp';
+import spacecraftAp3 from './spacecraft/ap3.webp';
+import spacecraftAp4 from './spacecraft/ap4.webp';
 import izmoNissanProject from './izmo/nissan-project.webp';
-import izmoPage3 from './izmo/page3.png';
-import izmoPage5 from './izmo/page5.png';
-import izmoPage4 from './izmo/page4.png';
+import izmoPage3 from './izmo/page3.webp';
+import izmoPage6 from './izmo/izmo-emporio.avifs';
+import izmoPage5 from './izmo/page5.webp';
+import izmoPage4 from './izmo/page4.webp';
 import izmoEmporio2 from './izmo/Izmo-emporio2.webp';
 import izmoEditor from './izmo/IzmoEditor.webp';
-import izmoPage2 from './izmo/page2.png';
-import izmoPage1 from './izmo/page1.png';
+import izmoPage2 from './izmo/page2.webp';
+import izmoPage1 from './izmo/page1.webp';
 import cadAI from './CadAI.webp';
 import dponicsCustomizer from './3Dponics-customizer.webp';
 import masalaNerds from './masalanerds/MasalaNerds.webp';
-import masalaNerdsP1 from './masalanerds/p1.png';
-import masalaNerdsP2 from './masalanerds/p2.png';
-import masalaNerdsP3 from './masalanerds/p3.png';
-import rayTracer from './experimental/PathTracer/RayTracer.png';
-import pathTracer1 from './experimental/PathTracer/PathTracer1.png';
-import pathTracer2 from './experimental/PathTracer/PathTracer2.png';
-import pathTracer3 from './experimental/PathTracer/PathTracer3.png';
-import pathTracer4 from './experimental/PathTracer/PathTracer4.png';
+import masalaNerdsP1 from './masalanerds/p1.webp';
+import masalaNerdsP2 from './masalanerds/p2.webp';
+import masalaNerdsP3 from './masalanerds/p3.webp';
+import rayTracer from './experimental/PathTracer/RayTracer.webp';
+import pathTracer1 from './experimental/PathTracer/PathTracer1.webp';
+import pathTracer2 from './experimental/PathTracer/PathTracer2.webp';
+import pathTracer3 from './experimental/PathTracer/PathTracer3.webp';
+import pathTracer4 from './experimental/PathTracer/PathTracer4.webp';
 import testDriveCover from './experimental/TestDriveDemo/TestDrive-cover.webp';
 import testDrivePage1 from './experimental/TestDriveDemo/TestDrivePage1.webp';
 import testDrivePage2 from './experimental/TestDriveDemo/TestDrivePage2.webp';
 import speedometerDashboard from './experimental/Speedometer/speedometer-dashboard.webp';
 import synechrone from './experimental/synechrone/synechrone.webp';
 import imageProcessing from './experimental/ImagePostprocessor/ImageProcessing.webp';
-import oxbotica from './experimental/Oxbotica/Oxbotica.png';
-import floorplanner1 from './experimental/FloorPlanner/floorplanner1.png';
-import floorplanner2 from './experimental/FloorPlanner/floorplanner2.png';
-import floorplanner3 from './experimental/FloorPlanner/floorplanner3.png';
+import oxbotica from './experimental/Oxbotica/Oxbotica.webp';
+import floorplanner1 from './experimental/FloorPlanner/floorplanner1.webp';
+import floorplanner2 from './experimental/FloorPlanner/floorplanner2.webp';
+import floorplanner3 from './experimental/FloorPlanner/floorplanner3.webp';
 
 export const data = [
   {
@@ -120,6 +121,7 @@ export const data = [
     link: 'https://www.izmoemporio.com/demo-en-us.htm',
     images: [
       { image: izmoNissanProject, thumbnail: izmoNissanProject },
+      { image: izmoPage6, thumbnail: izmoPage6 },
       { image: izmoPage3, thumbnail: izmoPage3 },
       { image: izmoPage5, thumbnail: izmoPage5 },
       { image: izmoPage4, thumbnail: izmoPage4 },
