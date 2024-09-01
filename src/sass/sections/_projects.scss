@@ -60,15 +60,11 @@
   
   // Swiper styles
   .mySwiper {
-    width: 500px;  // Increased width
-    height: 300px; // Adjusted height for landscape orientation
     padding: 10px;
   
     .swiper-slide {
       background-position: center;
       background-size: cover;
-      width: 480px; // Increased width
-      height: 280px; // Adjusted height
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.15);
       overflow: hidden;
@@ -151,6 +147,39 @@
   }
 }
 
+// Card view styles
+.mySwiper.card-view {
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 480px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+
+    .image-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+}
+
 // Fullscreen styles
 .fullscreen-overlay {
   position: fixed;
@@ -166,10 +195,21 @@
 }
 
 .fullscreen-content {
-  width: 90%;
-  height: 90%;
-  max-width: 1200px;
-  max-height: 800px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreen-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+  z-index: 1001;
 }
 
 .mySwiper.fullscreen {
@@ -177,19 +217,37 @@
   height: 100%;
 
   .swiper-slide {
-    width: 100%;
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(5px);
+
 
     .image-container {
       width: 100%;
       height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     img {
-      max-width: 100%;
-      max-height: 100%;
+      max-width: 90%;
+      max-height: 90%;
       object-fit: contain;
     }
+  }
+
+  .swiper-slide-active{
+    filter: blur(0px);
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff;
+  }
+
+  .swiper-pagination-bullet {
+    background: #fff;
   }
 }
 
@@ -197,4 +255,28 @@
 .cta-btn.cta-btn--hero {
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .mySwiper.card-view {
+    width: 360px;
+    height: 220px;
+
+    .swiper-slide {
+      width: 340px;
+      height: 200px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .mySwiper.card-view {
+    width: 300px;
+    height: 180px;
+
+    .swiper-slide {
+      width: 280px;
+      height: 160px;
+    }
+  }
 }

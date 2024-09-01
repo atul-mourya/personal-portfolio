@@ -3,22 +3,21 @@ import React, { useState } from 'react';
 import { ScrollReveal } from './ScrollReveal';
 import { data } from '../assets/data/projects-list';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCards, Navigation, Pagination } from 'swiper/modules';
+import { EffectCards } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-const ImageCarousel = ({ images, fullscreen = false }) => {
+// Default card view component
+const CardImageCarousel = ({ images }) => {
   return (
     <Swiper
       effect={'cards'}
       grabCursor={true}
-      modules={[EffectCards, Navigation, Pagination]}
-      // navigation
-      pagination={{ clickable: true }}
-      className={`mySwiper ${fullscreen ? 'fullscreen' : ''}`}
+      modules={[EffectCards]}
+      className="mySwiper card-view"
     >
       {images.map((img, index) => (
         <SwiperSlide key={index}>
@@ -34,11 +33,33 @@ const ImageCarousel = ({ images, fullscreen = false }) => {
   );
 };
 
+// Fullscreen view component
 const FullscreenCarousel = ({ images, onClose }) => {
   return (
-    <div className="fullscreen-overlay" onClick={onClose}>
-      <div className="fullscreen-content" onClick={(e) => e.stopPropagation()}>
-        <ImageCarousel images={images} fullscreen={true} />
+    <div className="fullscreen-overlay">
+      <div className="fullscreen-close" onClick={onClose}>×</div>
+      <div className="fullscreen-content">
+        <Swiper
+          effect={'cards'}
+          grabCursor={true}
+          modules={[EffectCards]}
+          // slidesPerView={1}
+          // navigation
+          pagination={{ clickable: true }}
+          // modules={[Navigation, Pagination]}
+          className="mySwiper fullscreen"
+        >
+          {images.map((img, index) => (
+            <SwiperSlide key={index}>
+              <div className="image-container">
+                <img 
+                  src={img.image} 
+                  alt={`Project image ${index + 1}`} 
+                />
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );
@@ -106,7 +127,7 @@ const Experiments = () => {
         </div>
         <div className="col-lg-6 col-sm-12">
           <div className="project-wrapper__image">
-            <ImageCarousel images={experiment.images} />
+            <CardImageCarousel images={experiment.images} />
           </div>
         </div>
       </div>
