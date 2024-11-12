@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import ProfileImage from "../assets/profile2.jpeg";
 import { ScrollReveal } from './ScrollReveal';
 import ResumePDF from "../assets/Resume - Computer Graphics.pdf";
+import { scrollRevealConfig } from '../assets/data/scrollRevealConfig';
+
 
 const About = () => {
 
@@ -19,31 +21,12 @@ const About = () => {
     setExperienceDuration(`${years} years and ${months} months`);
   }, []);
 
-  const imageAnimation = {
-    delay: 600,
-    duration: 1000,
-    distance: '30px',
-    origin: 'bottom',
-    hidden: { scale: 0.9, rotate: -5 },
-    visible: { scale: 1, rotate: 0 }
-  };
-
-  const infoAnimation = {
-    delay: 1000,
-    duration: 1000,
-    distance: '30px',
-    origin: 'right',
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 },
-    transition: { staggerChildren: 0.2 }
-  };
-
   return (
     <section id="about">
       <div className="container">
         <h2 className="section-title">About me</h2>
         <div className="row about-wrapper">
-          <ScrollReveal animationProps={imageAnimation} className="col-md-6 col-sm-12">
+          <ScrollReveal animationProps={scrollRevealConfig.imageAnimation} className="col-md-6 col-sm-12">
             <div className="about-wrapper__image">
               <img
                 alt="Profile Image"
@@ -54,7 +37,7 @@ const About = () => {
               />
             </div>
           </ScrollReveal>
-          <ScrollReveal animationProps={infoAnimation} className="col-md-6 col-sm-12">
+          <ScrollReveal animationProps={scrollRevealConfig.infoAnimation} className="col-md-6 col-sm-12">
             <div className="about-wrapper__info load-hidden">
               <p className="about-wrapper__info-text">
                 Software Engineer with over <span id="experience-duration">{experienceDuration}</span> of experience specializing in 3D Computer Graphics.

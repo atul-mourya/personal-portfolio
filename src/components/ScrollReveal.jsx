@@ -1,6 +1,7 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { useScrollReveal } from '../hooks/useScrollReveal';
+import PropTypes from 'prop-types';
+
 
 export const ScrollReveal = ({ children, animationProps, className }) => {
   const { ref, controls, variants } = useScrollReveal(animationProps);
@@ -16,4 +17,10 @@ export const ScrollReveal = ({ children, animationProps, className }) => {
       {children}
     </motion.div>
   );
+};
+
+ScrollReveal.propTypes = {
+  children: PropTypes.node.isRequired,
+  animationProps: PropTypes.object.isRequired,
+  className: PropTypes.string,
 };

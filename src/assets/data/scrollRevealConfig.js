@@ -1,67 +1,54 @@
-export const defaultProps = {
-  easing: "cubic-bezier(0.5, 0, 0, 1)",
-  distance: "30px",
+const baseAnimation = {
+  delay: 500,
   duration: 1000,
-  desktop: true,
-  mobile: true,
+  distance: '30px',
+  hidden: {},
+  visible: {}
 };
 
-export const targetElements = [
-  {
-    element: ".section-title",
-    animation: {
-      delay: 300,
-      distance: "0px",
-      origin: "bottom",
-    },
+export const scrollRevealConfig = {
+  titleAnimation: {
+    ...baseAnimation,
+    origin: 'left',
+    hidden: { ...baseAnimation.hidden, scale: 0.8 },
+    visible: { ...baseAnimation.visible, scale: 1 }
   },
-  {
-    element: ".hero-title",
-    animation: {
-      delay: 500,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
-    },
+  ctaAnimation: {
+    ...baseAnimation,
+    origin: 'bottom',
+    hidden: { ...baseAnimation.hidden, rotate: -5 },
+    visible: { ...baseAnimation.visible, rotate: 0 }
   },
-  {
-    element: ".hero-cta",
-    animation: {
-      delay: 1000,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
-    },
+  imageAnimation: {
+    ...baseAnimation,
+    delay: 600,
+    origin: 'bottom',
+    hidden: { ...baseAnimation.hidden, scale: 0.9, rotate: -5 },
+    visible: { ...baseAnimation.visible, scale: 1, rotate: 0 }
   },
-  {
-    element: ".about-wrapper__image",
-    animation: {
-      delay: 600,
-      origin: "bottom",
-    },
+  infoAnimation: {
+    delay: 100,
+    duration: 500,
+    distance: '30px',
+    origin: 'right',
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+    transition: { staggerChildren: 0.2 }
   },
-  {
-    element: ".about-wrapper__info",
-    animation: {
-      delay: 1000,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
-    },
+  projectAnimation: {
+    delay: 100,
+    duration: 500,
+    distance: '30px',
+    origin: 'right',
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 }
   },
-  {
-    element: ".project-wrapper__text",
-    animation: {
-      delay: 500,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
-    },
-  },
-  {
-    element: ".project-wrapper__image",
-    animation: {
-      delay: 1000,
-      origin: window.innerWidth > 768 ? "right" : "bottom",
-    },
-  },
-  {
-    element: ".contact-wrapper",
-    animation: {
-      delay: 800,
-      origin: "bottom",
-    },
-  },
-];
+  experimentAnimation: {
+    delay: 300,
+    duration: 1000,
+    distance: '30px',
+    origin: 'bottom',
+    opacity: 0,
+    scale: 0.9,
+  }
+};

@@ -3,6 +3,8 @@ import { ScrollReveal } from './ScrollReveal';
 import { data } from '../assets/data/projects-list';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper/modules';
+import { scrollRevealConfig } from '../assets/data/scrollRevealConfig';
+import PropTypes from 'prop-types';
 
 import 'swiper/css';
 import 'swiper/css/effect-cards';
@@ -30,6 +32,10 @@ const CardImageCarousel = ({ images }) => {
       ))}
     </Swiper>
   );
+};
+
+CardImageCarousel.propTypes = {
+  images: PropTypes.array.isRequired,
 };
 
 // Fullscreen view component
@@ -64,20 +70,16 @@ const FullscreenCarousel = ({ images, onClose }) => {
   );
 };
 
+FullscreenCarousel.propTypes = {
+  images: PropTypes.array.isRequired,
+  onClose: PropTypes.func.isRequired,
+};
+
 const Projects = () => {
   const [fullscreenProject, setFullscreenProject] = useState(null);
 
-  const projectAnimation = {
-    delay: 300,
-    duration: 1000,
-    distance: '30px',
-    origin: 'bottom',
-    opacity: 0,
-    scale: 0.9,
-  };
-
   const renderProject = (project, index) => (
-    <ScrollReveal key={index} animationProps={projectAnimation}>
+    <ScrollReveal key={index} animationProps={scrollRevealConfig.projectAnimation}>
       <div className="row project-item">
         <div className="col-lg-6 col-sm-12">
           <div className="project-wrapper__text">
