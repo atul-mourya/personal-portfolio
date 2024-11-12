@@ -103,16 +103,18 @@ export const data = [
   },
   {
     title: "Test Drive - Game Demo",
-    description: "An experimental ( WIP ) game demo for testing the game engine. The game engine is built using WebGL, Three.js, ammo.js, WebAssembly, etc",
+    description: "An experimental ( WIP ) game demo for testing my game engine. The game engine is built using WebGL, Three.js, ammo.js, WebAssembly, etc",
     link: 'https://atul-mourya.github.io/TestDriveDemo/',
     images: [
-      { image: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrive-cover.webp`, thumbnail: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrive-cover.webp` },
-      { image: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage1.webp`, thumbnail: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage1.webp` },
-      { image: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage2.webp`, thumbnail: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage2.webp` },
+      { image: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage3.webp`, thumbnail: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage3.webp` },
+      { image: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage4.webp`, thumbnail: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage4.webp` },
+      { image: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage5.webp`, thumbnail: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage5.webp` },
+      { image: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage6.webp`, thumbnail: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage6.webp` },
+      { image: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage7.webp`, thumbnail: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage7.webp` },
+      { image: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage8.webp`, thumbnail: `${import.meta.env.BASE_URL}data/experimental/TestDriveDemo/TestDrivePage8.webp` },
     ],
     isExperiment: false,
   },
-
   {
     title: "CAD.ai - 3D Viewer",
     description: "CAD.ai is a 3D CAD widget for visualizing CAD data in a web browser. The user can select from different materials, view mesh information, and view it in AR and VR.",
